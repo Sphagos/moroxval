@@ -1,0 +1,36 @@
+name: moroxval
+description: "A evaluation App for MOROX properties"
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_svg: ^2.0.4
+  google_fonts: ^4.0.4
+  flutter_form_builder: ^9.2.0
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/svg/
+
+fonts:
+  - family: SF-Pro-Text
+    fonts:
+      - asset: fonts/SF-Pro-Text-Regular.otf    
